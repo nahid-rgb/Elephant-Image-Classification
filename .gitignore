@@ -1,0 +1,39 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda / Virtual Environment
+venv/
+.venv/
+env/
+
+# Log files
+logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MLflow tracking files
+mlruns/
+
+# DVC cache
+.dvc/cache/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/

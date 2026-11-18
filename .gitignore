@@ -13,6 +13,9 @@ env/
 logs/
 *.log
 
+# Project artifacts (datasets and generated files)
+artifacts/
+
 # Jupyter Notebook
 .ipynb_checkpoints/
 
@@ -25,7 +28,7 @@ mlruns/
 # Environment variables and secrets
 .env
 .env.*
-
+class
 # VS Code
 .vscode/
 
@@ -37,3 +40,4 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
